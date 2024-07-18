@@ -1,0 +1,59 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.display {
+    background-color: #222;
+    color: #fff;
+    text-align: right;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 70px; /* Define a altura fixa do display */
+    width: 100%; /* Define uma largura fixa para o display */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden; /* Evita que o texto transborde */
+    white-space: nowrap; /* Impede a quebra de linha */
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+}
+
+.buttons .btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.buttons .btn-light {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+.buttons .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.buttons .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.buttons .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
